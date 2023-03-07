@@ -25,7 +25,7 @@ public interface iController {
 	/**
 	 *gestion menu modificar 
 	 */
-	void modifyCompetition();
+	void modify();
 	
 	/**
 	 * ver todos
