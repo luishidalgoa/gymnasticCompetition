@@ -6,12 +6,12 @@ public interface iGUI {
 	/**
 	 * descargar las competiciones guardadas o no
 	 */
-	void Download();
+	void loadFile();
 	
 	/*
 	 * gestiona la propia competicion, gimnastas, grupos y prueba
 	 */
-	void optionsCompetition();
+	void mainPrincipalCompetitions();
 	
 	/*
 	 * crear, modificar, mostrar y eliminar competicion
@@ -44,7 +44,7 @@ public interface iGUI {
 	void changeGroup();
 
 	/*
-	 * crear, modificar, mostrar y eliminar prueba
+	 * crear, modificar, mostrar, eliminar prueba y ver ganadores de cada prueba
 	 */
 	void mainTrial();
 	
