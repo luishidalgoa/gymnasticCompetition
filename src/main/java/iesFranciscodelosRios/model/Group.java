@@ -15,6 +15,10 @@ public class Group {
 
     private Club club;
     private Category category;
+    
+    public Group() {
+
+    }
 
     public Group(String name, Club club, Category category) {
         Name = name;
